@@ -1,6 +1,5 @@
 import React, { useContext } from 'react'
-import { Button, Platform, StyleSheet, Text, View } from 'react-native'
-import { PermissionStatus, request,PERMISSIONS } from "react-native-permissions"
+import { Button, StyleSheet, Text, View } from 'react-native'
 import { PermissionsContext } from '../context/PernissionsContext'
 
 export const PermissionsScreen = () => {
